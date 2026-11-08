@@ -1,0 +1,95 @@
+{
+  "coleccion": "posts",
+  "descripcion": "Entradas del blog de TEDxGranada: anuncios de ediciones, entrevistas al equipo y a ponentes, consejos para hablar en público y resúmenes de los eventos.",
+  "campos": {
+    "_id": {
+      "tipo": "ObjectId",
+      "obligatorio": true,
+      "descripcion": "Identificador único. Lo genera MongoDB automáticamente."
+    },
+    "titulo": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Título de la entrada."
+    },
+    "slug": {
+      "tipo": "String",
+      "obligatorio": true,
+      "unico": true,
+      "descripcion": "Identificador para la URL, generado a partir del título. No se puede repetir."
+    },
+    "contenido": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Texto completo de la entrada en formato Markdown."
+    },
+    "extracto": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Resumen corto (unos 220 caracteres) que se muestra en el listado del blog."
+    },
+    "imagen": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "URL de la imagen de portada de la entrada."
+    },
+    "categoria": {
+      "tipo": "String",
+      "obligatorio": true,
+      "valores": ["anuncio", "entrevista", "consejos", "recomendaciones", "divulgacion", "ponentes", "resumen", "patrocinadores"],
+      "descripcion": "Tipo de entrada. Sirve para filtrar el listado del blog."
+    },
+    "etiquetas": {
+      "tipo": "Array",
+      "obligatorio": false,
+      "descripcion": "Palabras clave de la entrada (categoría y edición a la que se refiere).",
+      "items": {
+        "tipo": "String"
+      }
+    },
+    "fechaPublicacion": {
+      "tipo": "Date",
+      "obligatorio": true,
+      "descripcion": "Fecha en la que se publicó la entrada."
+    },
+    "publicado": {
+      "tipo": "Boolean",
+      "obligatorio": false,
+      "porDefecto": true,
+      "descripcion": "Indica si la entrada es visible en la web o está en borrador."
+    },
+    "autor": {
+      "tipo": "ObjectId",
+      "ref": "users",
+      "obligatorio": true,
+      "descripcion": "Usuario que escribió la entrada (relación con users)."
+    },
+    "evento": {
+      "tipo": "ObjectId",
+      "ref": "events",
+      "obligatorio": false,
+      "descripcion": "Edición del evento a la que se refiere la entrada, si la hay (relación con events)."
+    },
+    "createdAt": {
+      "tipo": "Date",
+      "obligatorio": false,
+      "descripcion": "Fecha de creación del registro."
+    }
+  },
+  "relaciones": [
+    {
+      "campo": "autor",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:1",
+      "descripcion": "Un usuario del equipo puede escribir muchas entradas."
+    },
+    {
+      "campo": "evento",
+      "tipo": "referencia",
+      "coleccion": "events",
+      "cardinalidad": "N:1",
+      "descripcion": "Muchas entradas pueden hablar de una misma edición del evento."
+    }
+  ]
+}
