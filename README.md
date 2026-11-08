@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TEDxGranada · Base de datos (PEC 2)
 
 Base de datos MongoDB Atlas del proyecto de rediseño de la web de TEDxGranada.
@@ -61,7 +60,3 @@ Este repositorio contiene el modelo de datos y los datos de prueba del proyecto,
 - Los emails son ficticios (`@example.com`) y las contraseñas están hasheadas con bcrypt.
 - Algunos datos (ponentes de TEDxGranada 2023 y 2026, precios, programas y emails) son de ejemplo y están marcados como tales en los propios documentos.
 - El archivo `.env` no se incluye en el repositorio por seguridad.
-=======
-# Tedxgranada
-Rediseño de la web de TEDxGranada, con una base de datos en MongoDB (usuarios, eventos y entradas de blog) que organiza ediciones, ponentes, patrocinadores y equipo, para ofrecer una experiencia más intuitiva y accesible, con archivo de ediciones filtrable y panel de gestión.
->>>>>>> 4bb4d59c524006e85e02efad21a7c17640ee29a3
