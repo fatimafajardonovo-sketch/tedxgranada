@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimafajardonovo-sketch/tedxgranada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fatimafajardonovo-sketch/tedxgranada/issues"
+  },
+  "homepage": "https://github.com/fatimafajardonovo-sketch/tedxgranada#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "mongodb": "^7.8.0"
+  }
+}
