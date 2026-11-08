@@ -1,0 +1,87 @@
+{
+  "coleccion": "users",
+  "descripcion": "Personas y organizaciones vinculadas a TEDxGranada (equipo, ponentes, artistas y patrocinadores). El rol define su papel y sus permisos en el panel de gestión de eventos.",
+  "campos": {
+    "_id": {
+      "tipo": "ObjectId",
+      "obligatorio": true,
+      "descripcion": "Identificador único. Lo genera MongoDB automáticamente."
+    },
+    "nombre": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Nombre y apellidos de la persona, o nombre de la organización o artista."
+    },
+    "email": {
+      "tipo": "String",
+      "obligatorio": true,
+      "unico": true,
+      "descripcion": "Correo electrónico. No se puede repetir. Se usa para iniciar sesión."
+    },
+    "password": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Contraseña almacenada cifrada (hash)."
+    },
+    "rol": {
+      "tipo": "String",
+      "obligatorio": true,
+      "valores": ["organizador", "marketing", "diseño", "voluntario", "ponente", "patrocinador"],
+      "descripcion": "Papel del usuario en TEDxGranada. El rol organizador tiene permisos completos de gestión; ponente incluye también a los artistas."
+    },
+    "bio": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Biografía corta de la persona o descripción de la organización."
+    },
+    "organizacion": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Empresa, institución o cargo (p. ej. empresa del patrocinador u ocupación del ponente)."
+    },
+    "foto": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "URL de la foto de perfil o del logotipo."
+    },
+    "web": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "URL de la web personal o corporativa."
+    },
+    "redesSociales": {
+      "tipo": "Object",
+      "obligatorio": false,
+      "descripcion": "Perfiles en redes sociales.",
+      "campos": {
+        "linkedin": {
+          "tipo": "String",
+          "obligatorio": false,
+          "descripcion": "URL del perfil de LinkedIn."
+        },
+        "instagram": {
+          "tipo": "String",
+          "obligatorio": false,
+          "descripcion": "URL del perfil de Instagram."
+        },
+        "x": {
+          "tipo": "String",
+          "obligatorio": false,
+          "descripcion": "URL del perfil de X."
+        }
+      }
+    },
+    "activo": {
+      "tipo": "Boolean",
+      "obligatorio": false,
+      "porDefecto": true,
+      "descripcion": "Indica si la cuenta está activa."
+    },
+    "createdAt": {
+      "tipo": "Date",
+      "obligatorio": false,
+      "descripcion": "Fecha de creación del registro."
+    }
+  },
+  "relaciones": []
+}

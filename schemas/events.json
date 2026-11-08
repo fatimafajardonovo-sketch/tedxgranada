@@ -1,0 +1,359 @@
+{
+  "coleccion": "events",
+  "descripcion": "Ediciones de los eventos de TEDxGranada que se muestran y gestionan en la web. Cada documento es una edición concreta de un tipo de evento. En TEDxGranadaSalon cada sesión (con su propia fecha, lugar y charla) es un documento independiente del mismo año. TEDxRealejo (2019 y 2021) se registra como edición histórica del evento principal.",
+  "campos": {
+    "_id": {
+      "tipo": "ObjectId",
+      "obligatorio": true,
+      "descripcion": "Identificador único. Lo genera MongoDB automáticamente."
+    },
+    "nombre": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Nombre visible de la edición (p. ej. TEDxGranada 2026)."
+    },
+    "slug": {
+      "tipo": "String",
+      "obligatorio": true,
+      "unico": true,
+      "descripcion": "Identificador para la URL (p. ej. tedxgranada-2026). No se puede repetir."
+    },
+    "marca": {
+      "tipo": "String",
+      "obligatorio": false,
+      "valores": [
+        "TEDxGranada",
+        "TEDxRealejo"
+      ],
+      "porDefecto": "TEDxGranada",
+      "descripcion": "Marca con la que se celebró la edición. Las de 2019 y 2021 fueron TEDxRealejo."
+    },
+    "tipo": {
+      "tipo": "String",
+      "obligatorio": true,
+      "valores": [
+        "principal",
+        "salon",
+        "youth"
+      ],
+      "descripcion": "Tipo de evento: principal (TEDxGranada o TEDxRealejo), TEDxGranadaSalon o TEDxYouth@Granada."
+    },
+    "anio": {
+      "tipo": "Number",
+      "obligatorio": true,
+      "descripcion": "Año de la edición (2019, 2021, 2022, 2023, 2024, 2025, 2026)."
+    },
+    "tematica": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Temática o lema de la edición (p. ej. Irremplazables)."
+    },
+    "descripcion": {
+      "tipo": "String",
+      "obligatorio": true,
+      "descripcion": "Explicación de la temática y de la edición."
+    },
+    "estado": {
+      "tipo": "String",
+      "obligatorio": false,
+      "valores": [
+        "proximo",
+        "celebrado",
+        "cancelado"
+      ],
+      "porDefecto": "proximo",
+      "descripcion": "Estado del evento."
+    },
+    "fecha": {
+      "tipo": "Date",
+      "obligatorio": false,
+      "descripcion": "Fecha de celebración del evento."
+    },
+    "horaInicio": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Hora de inicio en formato HH:mm (p. ej. 16:30)."
+    },
+    "lugar": {
+      "tipo": "Object",
+      "obligatorio": true,
+      "descripcion": "Lugar donde se celebra o se celebró el evento.",
+      "campos": {
+        "nombre": {
+          "tipo": "String",
+          "obligatorio": true,
+          "descripcion": "Nombre del recinto (p. ej. Teatro José Tamayo)."
+        },
+        "direccion": {
+          "tipo": "String",
+          "obligatorio": false,
+          "descripcion": "Dirección del recinto."
+        },
+        "ciudad": {
+          "tipo": "String",
+          "obligatorio": false,
+          "porDefecto": "Granada",
+          "descripcion": "Ciudad del recinto."
+        },
+        "mapaUrl": {
+          "tipo": "String",
+          "obligatorio": false,
+          "descripcion": "Enlace a Google Maps con el punto de acceso al recinto."
+        }
+      }
+    },
+    "imagenPortada": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "URL de la imagen de portada o cartel de la edición."
+    },
+    "urlEntradas": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Enlace a la venta de entradas."
+    },
+    "precioEntrada": {
+      "tipo": "Number",
+      "obligatorio": false,
+      "descripcion": "Precio de la entrada estándar en euros (p. ej. 34, 31, 3.5). En TEDxYouth es el precio por alumno para centros educativos."
+    },
+    "condicionesEntrada": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Descuentos y qué incluye la entrada (p. ej. 15% para desempleados y universitarios; gratis para quien haya asistido a un evento anterior)."
+    },
+    "emailContacto": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Correo de contacto de la edición (p. ej. tedxyouth@tedxgranada.com)."
+    },
+    "urlPlaylistYoutube": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Enlace a la lista de reproducción de YouTube con las charlas de la edición."
+    },
+    "urlFotos": {
+      "tipo": "String",
+      "obligatorio": false,
+      "descripcion": "Enlace al álbum de fotos del evento (Flickr)."
+    },
+    "ponentes": {
+      "tipo": "Array",
+      "obligatorio": false,
+      "descripcion": "Ponentes y artistas que participan en la edición.",
+      "items": {
+        "tipo": "Object",
+        "campos": {
+          "usuario": {
+            "tipo": "ObjectId",
+            "ref": "users",
+            "obligatorio": true,
+            "descripcion": "Usuario con rol ponente."
+          },
+          "participacion": {
+            "tipo": "String",
+            "obligatorio": true,
+            "valores": [
+              "ponente",
+              "artista",
+              "tallerista",
+              "invitado"
+            ],
+            "descripcion": "Cómo participa: con charla, actuación, taller, o como invitado en un debate o mesa redonda."
+          },
+          "titulo": {
+            "tipo": "String",
+            "obligatorio": false,
+            "descripcion": "Título de la charla o de la actuación."
+          },
+          "urlVideo": {
+            "tipo": "String",
+            "obligatorio": false,
+            "descripcion": "Enlace al vídeo de su charla en YouTube."
+          },
+          "perfil": {
+            "tipo": "String",
+            "obligatorio": false,
+            "valores": [
+              "joven",
+              "adulto"
+            ],
+            "descripcion": "Solo en TEDxYouth: distingue a los ponentes jóvenes de los adultos."
+          },
+          "ganadorConcurso": {
+            "tipo": "Boolean",
+            "obligatorio": false,
+            "porDefecto": false,
+            "descripcion": "Indica si es el ganador del concurso de ponentes de esa edición (p. ej. Elena López en 2022, Claudia Campillo en 2024)."
+          }
+        }
+      }
+    },
+    "programa": {
+      "tipo": "Array",
+      "obligatorio": false,
+      "descripcion": "Programa del evento, ordenado.",
+      "items": {
+        "tipo": "Object",
+        "campos": {
+          "orden": {
+            "tipo": "Number",
+            "obligatorio": true,
+            "descripcion": "Posición del bloque dentro del programa."
+          },
+          "titulo": {
+            "tipo": "String",
+            "obligatorio": true,
+            "descripcion": "Título del bloque (charla, actuación, descanso...)."
+          },
+          "tipo": {
+            "tipo": "String",
+            "obligatorio": true,
+            "valores": [
+              "apertura",
+              "presentacion",
+              "charla",
+              "proyeccion",
+              "debate",
+              "mesa_redonda",
+              "taller",
+              "actuacion",
+              "descanso",
+              "comida",
+              "networking",
+              "cierre",
+              "otro"
+            ],
+            "descripcion": "Tipo de bloque del programa."
+          },
+          "fecha": {
+            "tipo": "Date",
+            "obligatorio": false,
+            "descripcion": "Fecha del bloque. Útil en TEDxGranadaSalon, donde cada sesión tiene su propio día."
+          },
+          "horaInicio": {
+            "tipo": "String",
+            "obligatorio": false,
+            "descripcion": "Hora de inicio en formato HH:mm."
+          },
+          "duracionMinutos": {
+            "tipo": "Number",
+            "obligatorio": false,
+            "descripcion": "Duración del bloque en minutos."
+          },
+          "ponentes": {
+            "tipo": "Array",
+            "obligatorio": false,
+            "descripcion": "Ponentes o artistas de un bloque. Una sesión puede reunir varias charlas.",
+            "items": {
+              "tipo": "ObjectId",
+              "ref": "users"
+            }
+          }
+        }
+      }
+    },
+    "patrocinadores": {
+      "tipo": "Array",
+      "obligatorio": false,
+      "descripcion": "Partners y patrocinadores de la edición.",
+      "items": {
+        "tipo": "Object",
+        "campos": {
+          "usuario": {
+            "tipo": "ObjectId",
+            "ref": "users",
+            "obligatorio": true,
+            "descripcion": "Usuario con rol patrocinador."
+          },
+          "nivel": {
+            "tipo": "String",
+            "obligatorio": false,
+            "valores": [
+              "principal",
+              "oro",
+              "plata",
+              "bronce",
+              "colaborador"
+            ],
+            "descripcion": "Nivel de patrocinio."
+          }
+        }
+      }
+    },
+    "equipo": {
+      "tipo": "Array",
+      "obligatorio": false,
+      "descripcion": "Equipo organizador y voluntarios de la edición.",
+      "items": {
+        "tipo": "Object",
+        "campos": {
+          "usuario": {
+            "tipo": "ObjectId",
+            "ref": "users",
+            "obligatorio": true,
+            "descripcion": "Usuario con rol organizador, marketing, diseño o voluntario."
+          },
+          "area": {
+            "tipo": "String",
+            "obligatorio": false,
+            "descripcion": "Área en la que colabora (p. ej. producción, comunicación, acogida)."
+          },
+          "funcion": {
+            "tipo": "String",
+            "obligatorio": false,
+            "descripcion": "Función concreta en esa edición (p. ej. Chief Marketing Officer, Coordinador IT, Azafata de sala)."
+          }
+        }
+      }
+    },
+    "creadoPor": {
+      "tipo": "ObjectId",
+      "ref": "users",
+      "obligatorio": false,
+      "descripcion": "Usuario que creó la edición (relación con users)."
+    },
+    "createdAt": {
+      "tipo": "Date",
+      "obligatorio": false,
+      "descripcion": "Fecha de creación del registro."
+    }
+  },
+  "relaciones": [
+    {
+      "campo": "creadoPor",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:1",
+      "descripcion": "Muchas ediciones pueden haber sido creadas por un mismo usuario."
+    },
+    {
+      "campo": "ponentes.usuario",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:N",
+      "descripcion": "Una edición tiene varios ponentes o artistas, y un mismo ponente puede participar en varias ediciones."
+    },
+    {
+      "campo": "programa.ponentes",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:N",
+      "descripcion": "Cada bloque del programa puede tener uno o varios ponentes o artistas, que también pueden estar en otros bloques y ediciones."
+    },
+    {
+      "campo": "patrocinadores.usuario",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:N",
+      "descripcion": "Una edición tiene varios patrocinadores, y un mismo patrocinador puede apoyar varias ediciones."
+    },
+    {
+      "campo": "equipo.usuario",
+      "tipo": "referencia",
+      "coleccion": "users",
+      "cardinalidad": "N:N",
+      "descripcion": "Una edición cuenta con varios miembros del equipo y voluntarios, y una misma persona puede colaborar en varias ediciones."
+    }
+  ]
+}

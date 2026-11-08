@@ -1,0 +1,3603 @@
+[
+  {
+    "_id": "665f2b3c4d5e6f7080000001",
+    "marca": "TEDxRealejo",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxRealejo 2019",
+    "slug": "tedxrealejo-2019",
+    "tipo": "principal",
+    "anio": 2019,
+    "tematica": "Piensa, Actúa, Sueña",
+    "descripcion": "Primera edición del evento y primer TEDx con licencia que se celebra en Granada, bajo el nombre TEDxRealejo. Nueve ponentes de distintas disciplinas y tres artistas, bajo el lema «Piensa, Actúa, Sueña»: el mundo evoluciona porque alguien piensa algo diferente, actúa para conseguirlo y sueña que es posible. Las entradas se agotaron más de dos meses antes. (Recinto de ejemplo: el lugar real no figura en la documentación.)",
+    "lugar": {
+      "nombre": "Teatro Alhambra",
+      "direccion": "Calle Molinos, 56, 18009 Granada",
+      "ciudad": "Granada"
+    },
+    "urlPlaylistYoutube": "https://www.youtube.com/playlist?list=PLjm4SyaZPlxK1gh4gCQgy0RGEDEIqYHwI",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72157708781676832/",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006f",
+        "participacion": "ponente",
+        "titulo": "Un viaje emocional a través del piano"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000070",
+        "participacion": "ponente",
+        "titulo": "Lo único incurable son las ganas de vivir"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000071",
+        "participacion": "ponente",
+        "titulo": "¿Realmente es posible vivir viajando?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000072",
+        "participacion": "ponente",
+        "titulo": "El mar no te pone límites"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000073",
+        "participacion": "ponente",
+        "titulo": "El poder de los cristales"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000074",
+        "participacion": "ponente",
+        "titulo": "6 claves por las que un país es rico o pobre"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000075",
+        "participacion": "ponente",
+        "titulo": "¿Qué consecuencias tiene subir una foto a Internet?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000076",
+        "participacion": "ponente",
+        "titulo": "Cómo nuestro estilo de vida afecta al ritmo circadiano"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000077",
+        "participacion": "ponente",
+        "titulo": "La brecha lingüística"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000078",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000079",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007a",
+        "participacion": "artista"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007b",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007c",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007d",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007e",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007f",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000080",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000081",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000082",
+        "nivel": "colaborador"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Organización",
+        "funcion": "Organización general y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Tecnología"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000d",
+        "area": "Artistas",
+        "funcion": "Coordinadora artística"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000e",
+        "area": "Marketing",
+        "funcion": "Comunicación, editorial y marketing, y social media"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000f",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000010",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000011",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000012",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000013",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000014",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000015",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000016",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000017",
+        "area": "Marketing",
+        "funcion": "Marketing digital, posicionamiento SEO y blog"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000018",
+        "area": "Diseño",
+        "funcion": "Diseño gráfico y maquetación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000019",
+        "area": "Diseño",
+        "funcion": "Diseño gráfico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001a",
+        "area": "Marketing",
+        "funcion": "Redes sociales durante el evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001b",
+        "area": "Marketing",
+        "funcion": "Redes sociales durante el evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000015",
+        "area": "Asesoría jurídica",
+        "funcion": "Asesoría jurídica"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d1",
+        "area": "Presentación",
+        "funcion": "Presentador del evento"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "fecha": "2019-05-25",
+    "horaInicio": "10:00",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "09:15",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento y actuación artística",
+        "tipo": "presentacion",
+        "horaInicio": "10:00",
+        "duracionMinutos": 30,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000078"
+        ]
+      },
+      {
+        "orden": 3,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "10:30",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f7000006f",
+          "665f1a2b3c4d5e6f70000070",
+          "665f1a2b3c4d5e6f70000071"
+        ]
+      },
+      {
+        "orden": 4,
+        "titulo": "Comida",
+        "tipo": "comida",
+        "horaInicio": "11:30",
+        "duracionMinutos": 60
+      },
+      {
+        "orden": 5,
+        "titulo": "Actuación artística",
+        "tipo": "actuacion",
+        "horaInicio": "12:30",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000079"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "Sesión 2",
+        "tipo": "charla",
+        "horaInicio": "12:45",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000072",
+          "665f1a2b3c4d5e6f70000073",
+          "665f1a2b3c4d5e6f70000074"
+        ]
+      },
+      {
+        "orden": 7,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "13:45",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 8,
+        "titulo": "Actuación artística",
+        "tipo": "actuacion",
+        "horaInicio": "14:15",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f7000007a"
+        ]
+      },
+      {
+        "orden": 9,
+        "titulo": "Sesión 3",
+        "tipo": "charla",
+        "horaInicio": "14:30",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000075",
+          "665f1a2b3c4d5e6f70000076",
+          "665f1a2b3c4d5e6f70000077"
+        ]
+      },
+      {
+        "orden": 10,
+        "titulo": "Cierre y despedida",
+        "tipo": "cierre",
+        "horaInicio": "15:30",
+        "duracionMinutos": 15
+      }
+    ],
+    "precioEntrada": 25,
+    "condicionesEntrada": "(Importe de ejemplo.) Entradas agotadas más de dos meses antes del evento. Incluye todas las charlas y actuaciones.",
+    "imagenPortada": "https://picsum.photos/seed/tedxrealejo-2019/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000002",
+    "marca": "TEDxRealejo",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxRealejo 2021",
+    "slug": "tedxrealejo-2021",
+    "tipo": "principal",
+    "anio": 2021,
+    "tematica": "Perfectamente imperfectos",
+    "descripcion": "Segunda edición, bajo el lema «Perfectamente imperfectos». Se celebró con aforo reducido, mascarilla obligatoria y distancia de seguridad. Nueve ponentes, uno de ellos elegido en el concurso de ponentes (Carlos Gutiérrez), y un espacio de networking virtual.",
+    "lugar": {
+      "nombre": "Auditorio Caja Rural",
+      "direccion": "Avenida Don Bosco, 2, 18006 Granada",
+      "ciudad": "Granada"
+    },
+    "urlPlaylistYoutube": "https://www.youtube.com/playlist?list=PLjm4SyaZPlxIAnb8xEoMsiV6-pvIEPbYM",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72157718978310103/",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000083",
+        "participacion": "ponente",
+        "titulo": "¿Cuánto te quieres del 1 al 10?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000084",
+        "participacion": "ponente",
+        "titulo": "¿Qué podemos hacer contra el bullying?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000085",
+        "participacion": "ponente",
+        "titulo": "¿Qué es ser mujer?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000086",
+        "participacion": "ponente",
+        "titulo": "Tiempo. ¿Cómo afecta a nuestra toma de decisiones?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000087",
+        "participacion": "ponente",
+        "titulo": "¿Por qué cada día hay menos gente en tu pueblo?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000088",
+        "participacion": "ponente",
+        "titulo": "Computación cuántica queer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000089",
+        "participacion": "ponente",
+        "titulo": "Nuclear y renovable, ¿estamos preparados para salvar al mundo?",
+        "ganadorConcurso": true
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008a",
+        "participacion": "ponente",
+        "titulo": "La mayor lección que aprendimos de los fósiles"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d2",
+        "participacion": "ponente",
+        "titulo": "El escenario como maestro"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007c",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008b",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008c",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008d",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008e",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008f",
+        "nivel": "bronce"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Coordinadora de ponentes"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario y patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación, administración y producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Escenografía y audiovisuales"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Tecnología"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000d",
+        "area": "Artistas",
+        "funcion": "Coordinadora artística"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000e",
+        "area": "Marketing",
+        "funcion": "Comunicación y marketing"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001c",
+        "area": "Diseño",
+        "funcion": "Diseño gráfico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001d",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001e",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001f",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000020",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000021",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000022",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000023",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000024",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000025",
+        "area": "Marketing",
+        "funcion": "Marketing: RRSS y blog"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000026",
+        "area": "Fotografía",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000027",
+        "area": "Marketing",
+        "funcion": "Marketing: RRSS y blog"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000028",
+        "area": "Fotografía",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000029",
+        "area": "Marketing",
+        "funcion": "Marketing: Blog"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002a",
+        "area": "Patrocinio",
+        "funcion": "Asistente de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002b",
+        "area": "Fotografía",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002c",
+        "area": "Diseño",
+        "funcion": "Diseño gráfico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002d",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002e",
+        "area": "Marketing",
+        "funcion": "Asistente de patrocinio y Marketing: RRSS"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002f",
+        "area": "Ponentes",
+        "funcion": "Asistente de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000030",
+        "area": "Producción",
+        "funcion": "Regiduría"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "fecha": "2021-04-18",
+    "horaInicio": "10:00",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "09:15",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "10:00",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 3,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "10:30",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000083",
+          "665f1a2b3c4d5e6f70000084",
+          "665f1a2b3c4d5e6f70000085"
+        ]
+      },
+      {
+        "orden": 4,
+        "titulo": "Comida",
+        "tipo": "comida",
+        "horaInicio": "11:30",
+        "duracionMinutos": 60
+      },
+      {
+        "orden": 5,
+        "titulo": "Sesión 2",
+        "tipo": "charla",
+        "horaInicio": "12:30",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000086",
+          "665f1a2b3c4d5e6f70000087",
+          "665f1a2b3c4d5e6f70000088"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "13:30",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 7,
+        "titulo": "Sesión 3",
+        "tipo": "charla",
+        "horaInicio": "14:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000089",
+          "665f1a2b3c4d5e6f7000008a",
+          "665f1a2b3c4d5e6f700000d2"
+        ]
+      },
+      {
+        "orden": 8,
+        "titulo": "Cierre y despedida",
+        "tipo": "cierre",
+        "horaInicio": "15:00",
+        "duracionMinutos": 15
+      }
+    ],
+    "precioEntrada": 20,
+    "condicionesEntrada": "(Importe de ejemplo.) Aforo reducido por la situación sanitaria; mascarilla obligatoria. Incluye todas las charlas y actuaciones.",
+    "imagenPortada": "https://picsum.photos/seed/tedxrealejo-2021/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000003",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranada 2022",
+    "slug": "tedxgranada-2022",
+    "tipo": "principal",
+    "anio": 2022,
+    "fecha": "2022-10-08",
+    "tematica": "Sempiterno",
+    "descripcion": "Tercera edición del evento y primera con el nombre TEDxGranada. 'Sempiterno' (del latín sempiternus) es lo que durará para siempre; el equipo creativo se inspiró en Federico García Lorca para ambientar la edición. Nueve ponentes, tres actuaciones artísticas, talleres y networking.",
+    "lugar": {
+      "nombre": "Centro Cultural Medina Elvira",
+      "ciudad": "Atarfe"
+    },
+    "precioEntrada": 34,
+    "condicionesEntrada": "15% de descuento para desempleados y universitarios acreditados. Incluye nueve charlas, tres actuaciones, almuerzo, coffee break, charla con los ponentes y talleres.",
+    "urlPlaylistYoutube": "https://www.youtube.com/playlist?list=PLjm4SyaZPlxJn7xCG8hB6XSel7DLEeiAk",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72177720302919285",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000090",
+        "participacion": "ponente",
+        "titulo": "El mito de la psicología positiva"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000091",
+        "participacion": "ponente",
+        "titulo": "Cómo se comunican las plantas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000092",
+        "participacion": "ponente",
+        "titulo": "Ser artista, ser libre"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000093",
+        "participacion": "ponente",
+        "titulo": "Periodismo frente al postureo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000094",
+        "participacion": "ponente",
+        "titulo": "Lo que cuentan los huesos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000095",
+        "participacion": "ponente",
+        "ganadorConcurso": true,
+        "titulo": "¿Qué dicen tus mensajes de ti?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000096",
+        "participacion": "ponente",
+        "titulo": "Componer con las manos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000097",
+        "participacion": "ponente",
+        "titulo": "El pelo afro y el racismo cotidiano"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000098",
+        "participacion": "ponente",
+        "titulo": "Influir con algo que decir"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000099",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009a",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009b",
+        "participacion": "artista"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009c",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009d",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009e",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009f",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008f",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a0",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000008d",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000007e",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a2",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a4",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a5",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a7",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a8",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a9",
+        "nivel": "colaborador"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000aa",
+        "nivel": "colaborador"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ab",
+        "nivel": "colaborador"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ac",
+        "nivel": "colaborador"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ad",
+        "nivel": "colaborador"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, administración y coordinación del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000031",
+        "area": "Organización",
+        "funcion": "Ayudante de organización y coordinación del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000032",
+        "area": "Organización",
+        "funcion": "Coordinación del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario y patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Ayudante de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002a",
+        "area": "Patrocinio",
+        "funcion": "Ayudante de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000033",
+        "area": "Patrocinio",
+        "funcion": "Ayudante de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000034",
+        "area": "Patrocinio",
+        "funcion": "Ayudante de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Coordinadora de ponentes"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Asistente de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001d",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000021",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001f",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000022",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000035",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000036",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000023",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000d",
+        "area": "Artistas",
+        "funcion": "Coordinación artística, team building y directora de fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000026",
+        "area": "Fotografía",
+        "funcion": "Fotógrafa"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000028",
+        "area": "Fotografía",
+        "funcion": "Fotógrafo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000037",
+        "area": "Fotografía",
+        "funcion": "Fotógrafa"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000e",
+        "area": "Marketing",
+        "funcion": "Coordinadora de comunicación y marketing"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000038",
+        "area": "Marketing",
+        "funcion": "Comunicación corporativa"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000039",
+        "area": "Marketing",
+        "funcion": "Community manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000002e",
+        "area": "Marketing",
+        "funcion": "Redes sociales durante el evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Coordinadora de diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003a",
+        "area": "Diseño",
+        "funcion": "Diseñadora gráfica"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003b",
+        "area": "Diseño",
+        "funcion": "Diseñadora gráfica"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003c",
+        "area": "Diseño",
+        "funcion": "Diseñadora gráfica"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinador IT y entradas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Coordinador de producción"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000030",
+        "area": "Producción",
+        "funcion": "Coordinador técnico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Producción",
+        "funcion": "Gestión de ponentes"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003d",
+        "area": "Producción",
+        "funcion": "Grabación y edición de vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003e",
+        "area": "Producción",
+        "funcion": "Grabación y edición de vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003f",
+        "area": "Producción",
+        "funcion": "Escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000040",
+        "area": "Producción",
+        "funcion": "Asistente de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000041",
+        "area": "Producción",
+        "funcion": "Asistente de escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000042",
+        "area": "Producción",
+        "funcion": "Asistente de escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000043",
+        "area": "Producción",
+        "funcion": "Asistente de sonido"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000044",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000045",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000046",
+        "area": "Administración",
+        "funcion": "Traslado de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000047",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000029",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000048",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000049",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004a",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004b",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004c",
+        "area": "Administración",
+        "funcion": "Montaje y desmontaje"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004d",
+        "area": "Administración",
+        "funcion": "Ropero"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004e",
+        "area": "Administración",
+        "funcion": "Montaje y desmontaje"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004f",
+        "area": "Administración",
+        "funcion": "Ropero"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "horaInicio": "10:30",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "09:45",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento y actuación artística",
+        "tipo": "presentacion",
+        "horaInicio": "10:30",
+        "duracionMinutos": 30,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000099"
+        ]
+      },
+      {
+        "orden": 3,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "11:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000090",
+          "665f1a2b3c4d5e6f70000091",
+          "665f1a2b3c4d5e6f70000092"
+        ]
+      },
+      {
+        "orden": 4,
+        "titulo": "Comida",
+        "tipo": "comida",
+        "horaInicio": "12:00",
+        "duracionMinutos": 60
+      },
+      {
+        "orden": 5,
+        "titulo": "Actuación artística",
+        "tipo": "actuacion",
+        "horaInicio": "13:00",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f7000009a"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "Sesión 2",
+        "tipo": "charla",
+        "horaInicio": "13:15",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000093",
+          "665f1a2b3c4d5e6f70000094",
+          "665f1a2b3c4d5e6f70000095"
+        ]
+      },
+      {
+        "orden": 7,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "14:15",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 8,
+        "titulo": "Actuación artística",
+        "tipo": "actuacion",
+        "horaInicio": "14:45",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f7000009b"
+        ]
+      },
+      {
+        "orden": 9,
+        "titulo": "Sesión 3",
+        "tipo": "charla",
+        "horaInicio": "15:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f70000096",
+          "665f1a2b3c4d5e6f70000097",
+          "665f1a2b3c4d5e6f70000098"
+        ]
+      },
+      {
+        "orden": 10,
+        "titulo": "Cierre y despedida",
+        "tipo": "cierre",
+        "horaInicio": "16:00",
+        "duracionMinutos": 15
+      }
+    ],
+    "imagenPortada": "https://picsum.photos/seed/tedxgranada-2022/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000004",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranada 2023",
+    "slug": "tedxgranada-2023",
+    "tipo": "principal",
+    "anio": 2023,
+    "tematica": "Caleidoscopio",
+    "descripcion": "Cuarta edición del evento, bajo el lema «Caleidoscopio»: el objeto en el que la luz rebota en espejos y crea nuevos patrones sirve de metáfora de una mirada curiosa que escucha otras miradas y multiplica los ángulos desde los que observamos el mundo.",
+    "lugar": {
+      "nombre": "Centro Cultural Medina Elvira",
+      "ciudad": "Atarfe"
+    },
+    "urlPlaylistYoutube": "https://www.youtube.com/playlist?list=PLjm4SyaZPlxJuCnd7IHs9isttkATbN_mG",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72177720314292061/",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ae",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d3",
+        "participacion": "ponente",
+        "titulo": "La ciencia también se cuenta en voz alta"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d4",
+        "participacion": "ponente",
+        "titulo": "Ciudades que respiran"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d5",
+        "participacion": "ponente",
+        "titulo": "Aprender a equivocarse"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d6",
+        "participacion": "ponente",
+        "titulo": "Música para despertar la memoria"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d7",
+        "participacion": "ponente",
+        "titulo": "Datos con alma"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d8",
+        "participacion": "ponente",
+        "titulo": "Voluntariado a contraluz"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d9",
+        "participacion": "ponente",
+        "titulo": "Cocinar es resistir"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000da",
+        "participacion": "ponente",
+        "titulo": "Mirar el cielo desde Granada"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000db",
+        "participacion": "ponente",
+        "titulo": "Lo que cuentan los archivos"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009c",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000af",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b0",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b1",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009e",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b2",
+        "nivel": "colaborador"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ad",
+        "nivel": "colaborador"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000032",
+        "area": "Organización",
+        "funcion": "Asistente de organización y coordinación del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000050",
+        "area": "Organización",
+        "funcion": "Coordinadora de catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000051",
+        "area": "Patrocinio",
+        "funcion": "Asistente de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Coordinadora de ponentes"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Asistente de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001d",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000021",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001f",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000023",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000035",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000036",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000052",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000053",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000054",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000020",
+        "area": "Ponentes",
+        "funcion": "Comisario/a"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000055",
+        "area": "Ponentes",
+        "funcion": "Apoyo psicológico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000d",
+        "area": "Artistas",
+        "funcion": "Coordinación artística, team building y directora de fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000028",
+        "area": "Fotografía",
+        "funcion": "Fotógrafo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000056",
+        "area": "Fotografía",
+        "funcion": "Fotógrafo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000057",
+        "area": "Fotografía",
+        "funcion": "Fotógrafa"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000e",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000058",
+        "area": "Marketing",
+        "funcion": "Community Manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000059",
+        "area": "Marketing",
+        "funcion": "Community Manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005a",
+        "area": "Marketing",
+        "funcion": "Creativo audiovisual"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005b",
+        "area": "Marketing",
+        "funcion": "Creativa audiovisual"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005c",
+        "area": "Marketing",
+        "funcion": "Creativa audiovisual"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005d",
+        "area": "Marketing",
+        "funcion": "Comunicación corporativa"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Coordinadora de diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005e",
+        "area": "Diseño",
+        "funcion": "Diseñadora gráfica"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Teclista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Coordinador de producción"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000030",
+        "area": "Producción",
+        "funcion": "Coordinador técnico"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Producción",
+        "funcion": "Gestión de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000043",
+        "area": "Producción",
+        "funcion": "Asistente de sonido"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000040",
+        "area": "Producción",
+        "funcion": "Asistente de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003f",
+        "area": "Producción",
+        "funcion": "Escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000041",
+        "area": "Producción",
+        "funcion": "Asistente de escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000042",
+        "area": "Producción",
+        "funcion": "Asistente de escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004c",
+        "area": "Día del evento",
+        "funcion": "Montaje y desmontaje"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000029",
+        "area": "Día del evento",
+        "funcion": "Montaje y desmontaje"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Día del evento",
+        "funcion": "Azafato de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000060",
+        "area": "Día del evento",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000061",
+        "area": "Día del evento",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000044",
+        "area": "Día del evento",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004b",
+        "area": "Día del evento",
+        "funcion": "Acreditaciones"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "fecha": "2023-11-12",
+    "horaInicio": "10:30",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "09:45",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento y actuación artística",
+        "tipo": "presentacion",
+        "horaInicio": "10:30",
+        "duracionMinutos": 30,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000ae"
+        ]
+      },
+      {
+        "orden": 3,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "11:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000d3",
+          "665f1a2b3c4d5e6f700000d4",
+          "665f1a2b3c4d5e6f700000d5"
+        ]
+      },
+      {
+        "orden": 4,
+        "titulo": "Comida",
+        "tipo": "comida",
+        "horaInicio": "12:00",
+        "duracionMinutos": 60
+      },
+      {
+        "orden": 5,
+        "titulo": "Sesión 2",
+        "tipo": "charla",
+        "horaInicio": "13:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000d6",
+          "665f1a2b3c4d5e6f700000d7",
+          "665f1a2b3c4d5e6f700000d8"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "14:00",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 7,
+        "titulo": "Sesión 3",
+        "tipo": "charla",
+        "horaInicio": "14:30",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000d9",
+          "665f1a2b3c4d5e6f700000da",
+          "665f1a2b3c4d5e6f700000db"
+        ]
+      },
+      {
+        "orden": 8,
+        "titulo": "Cierre y despedida",
+        "tipo": "cierre",
+        "horaInicio": "15:30",
+        "duracionMinutos": 15
+      }
+    ],
+    "precioEntrada": 32,
+    "condicionesEntrada": "(Importe de ejemplo.) 15% de descuento para desempleados y universitarios acreditados. Incluye charlas, actuaciones, coffee break y networking.",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranada-2023/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000005",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranada 2024",
+    "slug": "tedxgranada-2024",
+    "tipo": "principal",
+    "anio": 2024,
+    "fecha": "2024-10-20",
+    "horaInicio": "11:30",
+    "tematica": "Raíces",
+    "descripcion": "Explora cómo nuestras raíces (culturales, familiares, sociales o personales) nos influyen a menudo sin que lo notemos y cómo nos impulsan a crecer e innovar. Nueve ponentes y tres actuaciones artísticas. Las puertas abrieron a las 10:30.",
+    "lugar": {
+      "nombre": "Espacio Escénico de Maracena",
+      "ciudad": "Maracena"
+    },
+    "precioEntrada": 31,
+    "condicionesEntrada": "Descuento de hasta el 15% para desempleados y universitarios acreditados. Incluye charlas, actuaciones, talleres, networking, bolsa de regalo y coffee break. La entrada premium (con almuerzo) se agotó.",
+    "urlPlaylistYoutube": "https://www.youtube.com/playlist?list=PLjm4SyaZPlxLFUQsgg0a2C-D8k3fJukSH",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72177720321410067/",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b3",
+        "participacion": "ponente",
+        "titulo": "Valores homoeróticos y nuevas masculinidades en la imaginería profesional contemporánea"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b4",
+        "participacion": "ponente",
+        "titulo": "Hasta Párkinson se equivocaba"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b5",
+        "participacion": "ponente",
+        "titulo": "Una mirada a la relación con nuestros cuerpos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b6",
+        "participacion": "ponente",
+        "titulo": "Historia como guía en tiempos de cambio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b7",
+        "participacion": "ponente",
+        "titulo": "El arte de ser y no parecer",
+        "ganadorConcurso": false
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b8",
+        "participacion": "ponente",
+        "titulo": "El enemigo está más cerca de lo que creemos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b9",
+        "participacion": "ponente",
+        "titulo": "Confianza en una misma. Cómo el deporte me preparó para la maternidad"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ba",
+        "participacion": "ponente",
+        "titulo": "El poder de un like en la conservación de los primates"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000bb",
+        "participacion": "ponente",
+        "titulo": "Sobrevivir y florecer",
+        "ganadorConcurso": true
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000bc",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000bd",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009b",
+        "participacion": "artista"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b1",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009e",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a8",
+        "nivel": "bronce"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinador IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Presentación del evento y actuación de Nazario Guerrero",
+        "tipo": "presentacion",
+        "horaInicio": "11:30",
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000bc"
+        ]
+      },
+      {
+        "orden": 2,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "12:00",
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000b3",
+          "665f1a2b3c4d5e6f700000b4",
+          "665f1a2b3c4d5e6f700000b5"
+        ]
+      },
+      {
+        "orden": 3,
+        "titulo": "Comida",
+        "tipo": "comida",
+        "horaInicio": "13:00"
+      },
+      {
+        "orden": 4,
+        "titulo": "Sesión 2 (con actuación de Titánica Impro)",
+        "tipo": "charla",
+        "horaInicio": "15:00",
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000bd",
+          "665f1a2b3c4d5e6f700000b6",
+          "665f1a2b3c4d5e6f700000b7",
+          "665f1a2b3c4d5e6f700000b8"
+        ]
+      },
+      {
+        "orden": 5,
+        "titulo": "Coffee break",
+        "tipo": "descanso",
+        "horaInicio": "16:15"
+      },
+      {
+        "orden": 6,
+        "titulo": "Sesión 3 (con actuación de Tau Aerial)",
+        "tipo": "charla",
+        "horaInicio": "17:00",
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000b9",
+          "665f1a2b3c4d5e6f700000ba",
+          "665f1a2b3c4d5e6f700000bb",
+          "665f1a2b3c4d5e6f7000009b"
+        ]
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/venta-de-entradas/",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranada-2024/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000006",
+    "marca": "TEDxGranada",
+    "estado": "proximo",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranada 2026",
+    "slug": "tedxgranada-2026",
+    "tipo": "principal",
+    "anio": 2026,
+    "fecha": "2026-11-25",
+    "horaInicio": "16:30",
+    "tematica": "Irremplazables",
+    "descripcion": "«Irremplazables» habla de lo auténtico: en un momento en que la inteligencia artificial puede imitar cada vez más tareas, hay cosas que no puede reemplazar. La edición reúne ideas y experiencias que ponen en valor lo genuinamente humano.",
+    "lugar": {
+      "nombre": "Teatro José Tamayo",
+      "ciudad": "Granada"
+    },
+    "urlEntradas": "https://tedxgranada.com/venta-de-entradas-tedxgranada2026/",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000be",
+        "participacion": "ponente",
+        "titulo": "Lo que no se puede delegar"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000bf",
+        "participacion": "ponente",
+        "titulo": "Humanos en tiempos de algoritmos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c0",
+        "participacion": "ponente",
+        "titulo": "La autenticidad como oficio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c1",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000009b",
+        "participacion": "artista"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000dc",
+        "participacion": "ponente",
+        "titulo": "Lo que una máquina no sabrá de tu abuela"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000dd",
+        "participacion": "ponente",
+        "titulo": "El oficio que ninguna IA aprenderá"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000de",
+        "participacion": "ponente",
+        "titulo": "Cuidar es un trabajo irremplazable"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000df",
+        "participacion": "ponente",
+        "titulo": "Equivocarse con estilo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000e0",
+        "participacion": "ponente",
+        "titulo": "Ética para algoritmos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000e1",
+        "participacion": "ponente",
+        "titulo": "Enseñar sin pantalla"
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c2",
+        "nivel": "oro"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinador IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "15:45",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento y actuación de apertura",
+        "tipo": "presentacion",
+        "horaInicio": "16:30",
+        "duracionMinutos": 30,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c1"
+        ]
+      },
+      {
+        "orden": 3,
+        "titulo": "Sesión 1",
+        "tipo": "charla",
+        "horaInicio": "17:00",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000be",
+          "665f1a2b3c4d5e6f700000bf",
+          "665f1a2b3c4d5e6f700000c0"
+        ]
+      },
+      {
+        "orden": 4,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "18:00",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 5,
+        "titulo": "Actuación artística",
+        "tipo": "actuacion",
+        "horaInicio": "18:30",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f7000009b"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "Sesión 2",
+        "tipo": "charla",
+        "horaInicio": "18:45",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000dc",
+          "665f1a2b3c4d5e6f700000dd",
+          "665f1a2b3c4d5e6f700000de"
+        ]
+      },
+      {
+        "orden": 7,
+        "titulo": "Coffee break y networking",
+        "tipo": "descanso",
+        "horaInicio": "19:45",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 8,
+        "titulo": "Sesión 3",
+        "tipo": "charla",
+        "horaInicio": "20:15",
+        "duracionMinutos": 60,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000df",
+          "665f1a2b3c4d5e6f700000e0",
+          "665f1a2b3c4d5e6f700000e1"
+        ]
+      },
+      {
+        "orden": 9,
+        "titulo": "Cierre y despedida",
+        "tipo": "cierre",
+        "horaInicio": "21:15",
+        "duracionMinutos": 15
+      }
+    ],
+    "precioEntrada": 36,
+    "condicionesEntrada": "(Importe de ejemplo.) 15% de descuento para desempleados y universitarios acreditados. Incluye charlas, actuaciones, talleres, networking, bolsa de regalo y coffee break.",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranada-2026/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000007",
+    "marca": "TEDxGranada",
+    "estado": "proximo",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxYouth@Granada 2026",
+    "slug": "tedxyouth-granada-2026",
+    "tipo": "youth",
+    "anio": 2026,
+    "fecha": "2026-11-25",
+    "horaInicio": "10:30",
+    "tematica": "Creado por y para jóvenes",
+    "descripcion": "Evento educativo bajo licencia TED creado por y para jóvenes, dirigido a estudiantes de 4º de ESO, Bachillerato y Formación Profesional. Combina ponencias de jóvenes y expertos adultos, talleres educativos y actuaciones artísticas para inspirar ideas, fomentar el pensamiento crítico, despertar la creatividad y generar referentes cercanos. Las puertas abren a las 9:45.",
+    "lugar": {
+      "nombre": "Teatro José Tamayo",
+      "ciudad": "Granada"
+    },
+    "precioEntrada": 6,
+    "condicionesEntrada": "Precio especial para centros educativos: 6 € por alumno. Incluye 5 ponencias (3 jóvenes y 2 adultos), 2 talleres, 1 actuación artística, actividad Meet & Connect y bolsa de regalo.",
+    "urlEntradas": "https://forms.gle/qETUCrzB2ZztPR24A",
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c3",
+        "participacion": "ponente",
+        "perfil": "joven",
+        "titulo": "Mi primera canción"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c4",
+        "participacion": "ponente",
+        "perfil": "joven",
+        "titulo": "Lo que aprendí fallando"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c5",
+        "participacion": "ponente",
+        "perfil": "joven",
+        "titulo": "Mi barrio, mi laboratorio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c6",
+        "participacion": "ponente",
+        "perfil": "adulto",
+        "titulo": "Educación afectiva sin tabúes"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c7",
+        "participacion": "ponente",
+        "titulo": "Cambio, luego existo",
+        "perfil": "adulto"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c7",
+        "participacion": "tallerista",
+        "titulo": "Cambio, luego existo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c8",
+        "participacion": "tallerista",
+        "titulo": "Ingeniería Acústica: Emoción y Matemáticas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000c9",
+        "participacion": "artista",
+        "titulo": "Magia"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio y presupuestos"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinador IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas, acreditaciones y entrega de bolsas de regalo",
+        "tipo": "apertura",
+        "horaInicio": "09:45",
+        "duracionMinutos": 45
+      },
+      {
+        "orden": 2,
+        "titulo": "Vídeo intro TEDx",
+        "tipo": "proyeccion",
+        "horaInicio": "10:30",
+        "duracionMinutos": 2
+      },
+      {
+        "orden": 3,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "10:32",
+        "duracionMinutos": 5
+      },
+      {
+        "orden": 4,
+        "titulo": "Ponencia joven",
+        "tipo": "charla",
+        "horaInicio": "10:37",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c3"
+        ]
+      },
+      {
+        "orden": 5,
+        "titulo": "Ponencia joven",
+        "tipo": "charla",
+        "horaInicio": "10:52",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c4"
+        ]
+      },
+      {
+        "orden": 6,
+        "titulo": "TED Talk",
+        "tipo": "proyeccion",
+        "horaInicio": "11:07",
+        "duracionMinutos": 5
+      },
+      {
+        "orden": 7,
+        "titulo": "Ponencia de experta",
+        "tipo": "charla",
+        "horaInicio": "11:12",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c6"
+        ]
+      },
+      {
+        "orden": 8,
+        "titulo": "Taller: Ingeniería Acústica, emoción y matemáticas",
+        "tipo": "taller",
+        "horaInicio": "11:27",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c8"
+        ]
+      },
+      {
+        "orden": 9,
+        "titulo": "Descanso y Meet & Connect",
+        "tipo": "descanso",
+        "horaInicio": "11:45",
+        "duracionMinutos": 30
+      },
+      {
+        "orden": 10,
+        "titulo": "Ponencia: Cambio, luego existo",
+        "tipo": "charla",
+        "horaInicio": "12:15",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c7"
+        ]
+      },
+      {
+        "orden": 11,
+        "titulo": "Ponencia joven",
+        "tipo": "charla",
+        "horaInicio": "12:30",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c5"
+        ]
+      },
+      {
+        "orden": 12,
+        "titulo": "Taller: Cambio, luego existo",
+        "tipo": "taller",
+        "horaInicio": "12:45",
+        "duracionMinutos": 15,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c7"
+        ]
+      },
+      {
+        "orden": 13,
+        "titulo": "Actuación artística: magia",
+        "tipo": "actuacion",
+        "horaInicio": "13:00",
+        "duracionMinutos": 10,
+        "ponentes": [
+          "665f1a2b3c4d5e6f700000c9"
+        ]
+      },
+      {
+        "orden": 14,
+        "titulo": "Despedida",
+        "tipo": "cierre",
+        "horaInicio": "13:10",
+        "duracionMinutos": 5
+      }
+    ],
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      }
+    ],
+    "imagenPortada": "https://picsum.photos/seed/tedxyouth-granada-2026/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000008",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2025 · Despoblación rural",
+    "slug": "tedxgranadasalon-2025-despoblacion",
+    "tipo": "salon",
+    "anio": 2025,
+    "fecha": "2025-03-16",
+    "tematica": "¿Por qué cada día hay menos gente en tu pueblo?",
+    "descripcion": "Los Salones son pequeños encuentros periódicos que mantienen viva la comunidad TEDxGranada: se proyecta una TED Talk, se debate en directo con la persona protagonista y después hay networking. Marta Pastora Fernández explora las causas de la despoblación rural (falta de oportunidades, envejecimiento, abandono de servicios) y qué se puede hacer para frenarla.",
+    "lugar": {
+      "nombre": "Palacio de Quinta Alegre",
+      "direccion": "Avenida de Cervantes, 27, Granada (acceso por Plaza del Mirador)",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/jo4v6pvTgqst8umB9"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000087",
+        "participacion": "ponente",
+        "titulo": "¿Por qué cada día hay menos gente en tu pueblo?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cc",
+        "participacion": "artista"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000026",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000063",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000040",
+        "area": "Producción",
+        "funcion": "Asistente de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000064",
+        "area": "Producción",
+        "funcion": "Sonido"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004c",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004b",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      }
+    ],
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "17:30"
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "17:45"
+      },
+      {
+        "orden": 3,
+        "titulo": "Proyección TED Talk: ¿Por qué cada día hay menos gente en tu pueblo?",
+        "tipo": "proyeccion",
+        "horaInicio": "17:50"
+      },
+      {
+        "orden": 4,
+        "titulo": "Comienzo del debate",
+        "tipo": "debate",
+        "horaInicio": "18:00"
+      },
+      {
+        "orden": 5,
+        "titulo": "Actuación musical: Lourdes Maldonado (chelista)",
+        "tipo": "actuacion",
+        "horaInicio": "19:00"
+      },
+      {
+        "orden": 6,
+        "titulo": "Networking",
+        "tipo": "networking",
+        "horaInicio": "19:15"
+      },
+      {
+        "orden": 7,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "20:00"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums",
+    "horaInicio": "17:45",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2025-despoblacion/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f7080000009",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2025 · Inteligencia de las plantas",
+    "slug": "tedxgranadasalon-2025-plantas",
+    "tipo": "salon",
+    "anio": 2025,
+    "fecha": "2025-04-05",
+    "tematica": "¿Son las plantas seres inteligentes, a pesar de no tener cerebro?",
+    "descripcion": "Los Salones son pequeños encuentros periódicos que mantienen viva la comunidad TEDxGranada: se proyecta una TED Talk, se debate en directo con la persona protagonista y después hay networking. Matilde Barón explica cómo las plantas, sin cerebro ni sistema nervioso, se comunican y se adaptan al estrés, la sequía o las plagas.",
+    "lugar": {
+      "nombre": "Palacio de Quinta Alegre",
+      "direccion": "Avenida de Cervantes, 27, Granada (acceso por Plaza del Mirador)",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/jo4v6pvTgqst8umB9"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000091",
+        "participacion": "ponente",
+        "titulo": "¿Son las plantas seres inteligentes, a pesar de no tener cerebro?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cd",
+        "participacion": "artista"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000026",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000063",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000040",
+        "area": "Producción",
+        "funcion": "Asistente de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000064",
+        "area": "Producción",
+        "funcion": "Sonido"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004c",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004b",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      }
+    ],
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "17:00"
+      },
+      {
+        "orden": 2,
+        "titulo": "Actuación musical: Lua (voz y guitarra)",
+        "tipo": "actuacion",
+        "horaInicio": "17:15"
+      },
+      {
+        "orden": 3,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "17:30"
+      },
+      {
+        "orden": 4,
+        "titulo": "Proyección TED Talk: ¿Son las plantas seres inteligentes, a pesar de no tener cerebro?",
+        "tipo": "proyeccion",
+        "horaInicio": "17:35"
+      },
+      {
+        "orden": 5,
+        "titulo": "Comienzo del debate",
+        "tipo": "debate",
+        "horaInicio": "17:50"
+      },
+      {
+        "orden": 6,
+        "titulo": "Networking",
+        "tipo": "networking",
+        "horaInicio": "19:00"
+      },
+      {
+        "orden": 7,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "19:45"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums",
+    "horaInicio": "17:30",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2025-plantas/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f708000000a",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2025 · IA y consumo digital",
+    "slug": "tedxgranadasalon-2025-ia",
+    "tipo": "salon",
+    "anio": 2025,
+    "fecha": "2025-05-11",
+    "tematica": "ConsCiencIA. Consumo digital consciente",
+    "descripcion": "Los Salones son pequeños encuentros periódicos que mantienen viva la comunidad TEDxGranada: se proyecta una TED Talk, se debate en directo con la persona protagonista y después hay networking. Belén Prados reflexiona sobre cómo la inteligencia artificial transforma nuestra vida diaria, los dilemas éticos que plantea y cómo usarla con más conciencia.",
+    "lugar": {
+      "nombre": "Palacio de Quinta Alegre",
+      "direccion": "Avenida de Cervantes, 27, Granada (acceso por Plaza del Mirador)",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/jo4v6pvTgqst8umB9"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ce",
+        "participacion": "ponente",
+        "titulo": "ConsCiencIA. Consumo digital consciente"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Patrocinio",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000004",
+        "area": "Patrocinio",
+        "funcion": "Coordinador de patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000003",
+        "area": "Patrocinio",
+        "funcion": "Patrocinio"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000026",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000063",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000040",
+        "area": "Producción",
+        "funcion": "Asistente de ponentes y artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000064",
+        "area": "Producción",
+        "funcion": "Sonido"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004c",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000004b",
+        "area": "Administración",
+        "funcion": "Control de acceso y catering"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72177720326046656",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      }
+    ],
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "11:00"
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "11:15"
+      },
+      {
+        "orden": 3,
+        "titulo": "Proyección TED Talk: ConsCiencIA. Consumo Digital Consciente",
+        "tipo": "proyeccion",
+        "horaInicio": "11:20"
+      },
+      {
+        "orden": 4,
+        "titulo": "Comienzo del debate",
+        "tipo": "debate",
+        "horaInicio": "11:35"
+      },
+      {
+        "orden": 5,
+        "titulo": "Networking",
+        "tipo": "networking",
+        "horaInicio": "12:50"
+      },
+      {
+        "orden": 6,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "13:30"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "horaInicio": "11:15",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2025-ia/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f708000000b",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2026 · Ciberseguridad",
+    "slug": "tedxgranadasalon-2026-ciberseguridad",
+    "tipo": "salon",
+    "anio": 2026,
+    "fecha": "2026-03-21",
+    "tematica": "¿Y si el mayor riesgo en ciberseguridad no fuera la tecnología, sino nosotros mismos?",
+    "descripcion": "Los Salones son pequeños encuentros periódicos que mantienen viva la comunidad TEDxGranada: se proyecta una TED Talk, se debate en directo con la persona protagonista y después hay networking. Antonio Guerrero Ruiz analiza el papel de los usuarios en la seguridad digital, cómo actúan los ciberdelincuentes y lo fácil que resulta hoy atacar con inteligencia artificial.",
+    "lugar": {
+      "nombre": "Palacio de Quinta Alegre",
+      "direccion": "Avenida de Cervantes, 27, Granada (acceso por Plaza del Mirador)",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/jo4v6pvTgqst8umB9"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cf",
+        "participacion": "ponente",
+        "titulo": "¿Y si el mayor riesgo en ciberseguridad no fuera la tecnología, sino nosotros mismos?"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Organización",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003e",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005c",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000065",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000066",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000067",
+        "area": "Marketing",
+        "funcion": "Community Manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000068",
+        "area": "Producción",
+        "funcion": "Proyección y escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000069",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006a",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006b",
+        "area": "Administración",
+        "funcion": "Control de acceso y community manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006c",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006d",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006e",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000047",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums/72177720332695668",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      }
+    ],
+    "precioEntrada": 3.5,
+    "condicionesEntrada": "Entrada a 3,5 € (gastos de gestión no incluidos). Gratis si se ha asistido a algún evento TEDxGranada o TEDxRealejo. Asistir a todos los Salones de 2026 da un 10% de descuento en la entrada de TEDxGranada.",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "17:30"
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "17:45"
+      },
+      {
+        "orden": 3,
+        "titulo": "Debate",
+        "tipo": "debate",
+        "horaInicio": "17:50"
+      },
+      {
+        "orden": 4,
+        "titulo": "Networking",
+        "tipo": "networking",
+        "horaInicio": "19:20"
+      },
+      {
+        "orden": 5,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "19:45"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "horaInicio": "17:45",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2026-ciberseguridad/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f708000000c",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2026 · Confianza en el cuerpo",
+    "slug": "tedxgranadasalon-2026-cuerpo",
+    "tipo": "salon",
+    "anio": 2026,
+    "fecha": "2026-04-11",
+    "tematica": "¿En qué momento dejamos de confiar en nuestro cuerpo, incluso para dar vida?",
+    "descripcion": "Los Salones son pequeños encuentros periódicos que mantienen viva la comunidad TEDxGranada: se proyecta una TED Talk, se debate en directo con la persona protagonista y después hay networking. Victoria Padial reflexiona sobre la desconexión con nuestro cuerpo y cómo afecta al miedo, la confianza y experiencias como el embarazo y el parto.",
+    "lugar": {
+      "nombre": "Palacio de Quinta Alegre",
+      "direccion": "Plaza del Mirador, Calle Era, 50, Granada",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/jo4v6pvTgqst8umB9"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000b9",
+        "participacion": "ponente",
+        "titulo": "¿En qué momento dejamos de confiar en nuestro cuerpo, incluso para dar vida?"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Organización",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003e",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005c",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000065",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000066",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000067",
+        "area": "Marketing",
+        "funcion": "Community Manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000068",
+        "area": "Producción",
+        "funcion": "Proyección y escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000069",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006a",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006b",
+        "area": "Administración",
+        "funcion": "Control de acceso y community manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006c",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006d",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006e",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000047",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      }
+    ],
+    "precioEntrada": 3.5,
+    "condicionesEntrada": "Entrada a 3,5 € (gastos de gestión no incluidos). Gratis si se ha asistido a algún evento TEDxGranada o TEDxRealejo. Asistir a todos los Salones de 2026 da un 10% de descuento en la entrada de TEDxGranada.",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "17:30"
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "17:45"
+      },
+      {
+        "orden": 3,
+        "titulo": "Debate",
+        "tipo": "debate",
+        "horaInicio": "17:50"
+      },
+      {
+        "orden": 4,
+        "titulo": "Networking",
+        "tipo": "networking",
+        "horaInicio": "19:20"
+      },
+      {
+        "orden": 5,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "19:45"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/albums",
+    "horaInicio": "17:45",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2026-cuerpo/1200/630"
+  },
+  {
+    "_id": "665f2b3c4d5e6f708000000d",
+    "marca": "TEDxGranada",
+    "estado": "celebrado",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "nombre": "TEDxGranadaSalon 2026 · Credulidad y desinformación",
+    "slug": "tedxgranadasalon-2026-desinformacion",
+    "tipo": "salon",
+    "anio": 2026,
+    "fecha": "2026-06-17",
+    "tematica": "¿Somos tan crédulos y tan vulnerables a la desinformación como pensamos, o en realidad somos crédulos sobre nuestra credulidad?",
+    "descripcion": "Mesa redonda en la que Ramón Nogueras desmonta mitos sobre nuestra supuesta credulidad y analiza qué dice la evidencia científica, junto a otros dos expertos y con participación del público.",
+    "lugar": {
+      "nombre": "Teatro Isabel la Católica",
+      "direccion": "Calle Acera del Casino, s/n, Granada",
+      "ciudad": "Granada",
+      "mapaUrl": "https://maps.app.goo.gl/MFTPKT3VJwYaZLzWA"
+    },
+    "ponentes": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000090",
+        "participacion": "ponente",
+        "titulo": "¿Somos tan crédulos y tan vulnerables a la desinformación como pensamos, o en realidad somos crédulos sobre nuestra credulidad?"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000001d",
+        "participacion": "invitado"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000d0",
+        "participacion": "invitado"
+      }
+    ],
+    "equipo": [
+      {
+        "usuario": "665f1a2b3c4d5e6f70000001",
+        "area": "Organización",
+        "funcion": "Organización, coordinación y administración del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000002",
+        "area": "Organización",
+        "funcion": "Licenciatario"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000005",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000006",
+        "area": "Ponentes",
+        "funcion": "Selección y coordinación de ponencias"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000007",
+        "area": "Artistas",
+        "funcion": "Coordinación de artistas"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000062",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000003e",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005c",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000065",
+        "area": "Fotografía y vídeo",
+        "funcion": "Vídeo"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000066",
+        "area": "Fotografía y vídeo",
+        "funcion": "Fotografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000b",
+        "area": "Marketing",
+        "funcion": "Chief Marketing Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000c",
+        "area": "Marketing",
+        "funcion": "Chief Communications Officer"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000067",
+        "area": "Marketing",
+        "funcion": "Community Manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000000a",
+        "area": "Diseño",
+        "funcion": "Dirección creativa y diseño"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000009",
+        "area": "IT",
+        "funcion": "Coordinación IT"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000008",
+        "area": "Producción",
+        "funcion": "Producción del evento"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000068",
+        "area": "Producción",
+        "funcion": "Proyección y escenografía"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000069",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006a",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006b",
+        "area": "Administración",
+        "funcion": "Control de acceso y community manager"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000005f",
+        "area": "Administración",
+        "funcion": "Control de acceso"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006c",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006d",
+        "area": "Administración",
+        "funcion": "Azafata de sala y acomodación"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f7000006e",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f70000047",
+        "area": "Administración",
+        "funcion": "Acreditaciones"
+      }
+    ],
+    "creadoPor": "665f1a2b3c4d5e6f70000001",
+    "urlFotos": "https://www.flickr.com/photos/171409453@N02/55356838101/in/dateposted-public",
+    "patrocinadores": [
+      {
+        "usuario": "665f1a2b3c4d5e6f700000ca",
+        "nivel": "principal"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a1",
+        "nivel": "oro"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000cb",
+        "nivel": "plata"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a6",
+        "nivel": "bronce"
+      },
+      {
+        "usuario": "665f1a2b3c4d5e6f700000a3",
+        "nivel": "bronce"
+      }
+    ],
+    "precioEntrada": 3.5,
+    "condicionesEntrada": "Entrada a 3,5 € (gastos de gestión no incluidos). Gratis si se ha asistido a algún evento TEDxGranada o TEDxRealejo. Asistir a todos los Salones de 2026 da un 10% de descuento en la entrada de TEDxGranada.",
+    "programa": [
+      {
+        "orden": 1,
+        "titulo": "Apertura de puertas y acreditaciones",
+        "tipo": "apertura",
+        "horaInicio": "18:00"
+      },
+      {
+        "orden": 2,
+        "titulo": "Presentación del evento",
+        "tipo": "presentacion",
+        "horaInicio": "18:15"
+      },
+      {
+        "orden": 3,
+        "titulo": "Mesa redonda",
+        "tipo": "mesa_redonda",
+        "horaInicio": "18:20"
+      },
+      {
+        "orden": 4,
+        "titulo": "Firma de libros y networking",
+        "tipo": "networking",
+        "horaInicio": "19:50"
+      },
+      {
+        "orden": 5,
+        "titulo": "Cierre",
+        "tipo": "cierre",
+        "horaInicio": "20:15"
+      }
+    ],
+    "urlEntradas": "https://tedxgranada.com/tedxgranadasalon-comprar-entradas/",
+    "urlPlaylistYoutube": "https://www.youtube.com/channel/UC6kSbUM7zGyQkvy-S8ncBxg",
+    "horaInicio": "18:15",
+    "imagenPortada": "https://picsum.photos/seed/tedxgranadasalon-2026-desinformacion/1200/630"
+  }
+]
