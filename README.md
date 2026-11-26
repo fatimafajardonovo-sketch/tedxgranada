@@ -153,18 +153,25 @@ node seed.js
 
 El importador convierte los identificadores y fechas del JSON al formato MongoDB y crea los índices únicos descritos arriba. **Advertencia:** elimina los documentos existentes de `users`, `events` y `posts` antes de insertar los datos de ejemplo. No lo ejecutes sobre datos que quieras conservar; no afecta a otras colecciones.
 
-## Preparación para Vercel
+## Despliegue en Vercel
 
-La aplicación Express exportada en `backend/server.js` es compatible con el despliegue de Express en Vercel. Según la [documentación de Express en Vercel](https://vercel.com/docs/frameworks/backend/express), Express puede desplegarse sin configuración adicional cuando Vercel detecta la aplicación.
+La aplicación Express exportada en `backend/server.js` está desplegada en Vercel. Según la [documentación de Express en Vercel](https://vercel.com/docs/frameworks/backend/express), Express puede desplegarse sin configuración adicional cuando Vercel detecta la aplicación.
 
-Al importar el repositorio en Vercel:
+**URL base:** <https://tedxgranada.vercel.app/>
+
+Endpoints públicos:
+
+- Posts: <https://tedxgranada.vercel.app/api/posts>
+- Eventos: <https://tedxgranada.vercel.app/api/events>
+
+Se comprobó que ambos endpoints GET responden con registros en JSON.
+
+Para configurar futuros despliegues:
 
 1. Configura `backend` como **Root Directory**.
 2. Añade `MONGODB_URI` a las variables de entorno de Vercel para los entornos que vayas a utilizar.
 3. Comprueba en MongoDB Atlas que la configuración de acceso de red permite la conexión desde el despliegue.
 4. Despliega y comprueba la URL pública con `/`, `/api/posts` y `/api/events`.
-
-El proyecto todavía no está desplegado; por tanto, no hay una URL pública que indicar. Configurar las variables de Vercel, el acceso de red de Atlas y publicar el despliegue son pasos manuales que aún quedan pendientes.
 
 ## Notas de seguridad y datos
 
