@@ -30,7 +30,7 @@ app.use(express.json());
 
 // Ruta raíz sencilla para confirmar que la API está respondiendo.
 app.get("/", (req, res) => {
-  res.json({ mensaje: "API REST de TEDxGranada" });
+  res.status(200).json({ mensaje: "API REST de TEDxGranada" });
 });
 
 // Conecta las rutas de los posts con la dirección /api/posts  y api/events
