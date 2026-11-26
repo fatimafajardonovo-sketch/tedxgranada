@@ -1,24 +1,36 @@
 const mongoose = require("mongoose");
 
 // Conecta a MongoDB Atlas. Reutiliza la conexión si ya está abierta
+let connectionPromise;
 
 async function connectDB(uri) {
   // Sin la URI no es posible saber a qué clúster conectarse.
-  if (!uri) {
+  const connectionUri = typeof uri === "string" ? uri.trim() : "";
+  if (!connectionUri) {
     throw new Error("Falta la variable de entorno MONGODB_URI");
   }
 
-  // Si Mongoose ya tiene una conexión iniciada, la reutilizamos en vez de intentar abrir otra.
-  if (mongoose.connection.readyState >= 1) {
+  // Si Mongoose ya está conectado, reutilizamos la conexión existente.
+  if (mongoose.connection.readyState === 1) {
     return mongoose.connection;
   }
 
-  mongoose.set("strictQuery", true);
-  // Esperamos a que se conecte; si falla, Mongoose lanza el error al llamador.
-  await mongoose.connect(uri);
-  console.log("Conectado a MongoDB Atlas");
+  // Comparte la promesa mientras la conexión inicial todavía está en curso.
+  if (!connectionPromise) {
+    mongoose.set("strictQuery", true);
+    connectionPromise = mongoose
+      .connect(connectionUri)
+      .then(() => {
+        console.log("Conectado a MongoDB Atlas");
+        return mongoose.connection;
+      })
+      .catch((err) => {
+        connectionPromise = undefined;
+        throw err;
+      });
+  }
 
-  return mongoose.connection;
+  return connectionPromise;
 }
 
 module.exports = connectDB;
