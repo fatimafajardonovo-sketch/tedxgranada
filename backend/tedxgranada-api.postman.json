@@ -1,0 +1,186 @@
+{
+  "info": {
+    "name": "API TEDxGranada (PEC 3)",
+    "description": "Colección para probar los CRUD de posts y eventos. Importable en Postman o Thunder Client. Cambia la variable {{base}} por tu URL local o la de Vercel. Ejecuta las peticiones de escritura solo con datos de prueba.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base", "value": "http://localhost:4000" },
+    { "key": "postId", "value": "REEMPLAZA_POR_UN_ID" },
+    { "key": "eventId", "value": "REEMPLAZA_POR_UN_ID" },
+    { "key": "authorId", "value": "665f1a2b3c4d5e6f70000001" }
+  ],
+  "item": [
+    {
+      "name": "Estado de la API",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/",
+          "host": ["{{base}}"],
+          "path": [""]
+        }
+      }
+    },
+    {
+      "name": "Listar posts",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/posts",
+          "host": ["{{base}}"],
+          "path": ["api", "posts"]
+        }
+      }
+    },
+    {
+      "name": "Obtener un post",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/posts/{{postId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "posts", "{{postId}}"]
+        }
+      }
+    },
+    {
+      "name": "Crear post de prueba",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Prueba de API REST\",\n  \"slug\": \"prueba-api-pec3-{{$guid}}\",\n  \"contenido\": \"Post temporal creado para probar el CRUD de la API.\",\n  \"extracto\": \"Prueba temporal del CRUD.\",\n  \"categoria\": \"anuncio\",\n  \"etiquetas\": [\"prueba\", \"api\"],\n  \"fechaPublicacion\": \"2026-11-26T12:00:00.000Z\",\n  \"publicado\": false,\n  \"autor\": \"{{authorId}}\"\n}"
+        },
+        "url": {
+          "raw": "{{base}}/api/posts",
+          "host": ["{{base}}"],
+          "path": ["api", "posts"]
+        }
+      }
+    },
+    {
+      "name": "Actualizar post",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"extracto\": \"Post actualizado durante la prueba del CRUD.\"\n}"
+        },
+        "url": {
+          "raw": "{{base}}/api/posts/{{postId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "posts", "{{postId}}"]
+        }
+      }
+    },
+    {
+      "name": "Eliminar post",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{base}}/api/posts/{{postId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "posts", "{{postId}}"]
+        }
+      }
+    },
+    {
+      "name": "Listar eventos",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/events",
+          "host": ["{{base}}"],
+          "path": ["api", "events"]
+        }
+      }
+    },
+    {
+      "name": "Obtener un evento",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/events/{{eventId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "events", "{{eventId}}"]
+        }
+      }
+    },
+    {
+      "name": "Crear evento de prueba",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Evento de prueba API\",\n  \"slug\": \"evento-prueba-api-pec3-{{$guid}}\",\n  \"tipo\": \"principal\",\n  \"anio\": 2026,\n  \"tematica\": \"Prueba de la API\",\n  \"descripcion\": \"Evento temporal para probar el CRUD de la API.\",\n  \"estado\": \"proximo\",\n  \"lugar\": {\n    \"nombre\": \"Recinto de prueba\",\n    \"ciudad\": \"Granada\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base}}/api/events",
+          "host": ["{{base}}"],
+          "path": ["api", "events"]
+        }
+      }
+    },
+    {
+      "name": "Actualizar evento",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tematica\": \"Evento actualizado durante la prueba\"\n}"
+        },
+        "url": {
+          "raw": "{{base}}/api/events/{{eventId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "events", "{{eventId}}"]
+        }
+      }
+    },
+    {
+      "name": "Eliminar evento",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{base}}/api/events/{{eventId}}",
+          "host": ["{{base}}"],
+          "path": ["api", "events", "{{eventId}}"]
+        }
+      }
+    },
+    {
+      "name": "Ruta inexistente (404)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/ruta-inexistente",
+          "host": ["{{base}}"],
+          "path": ["api", "ruta-inexistente"]
+        }
+      }
+    },
+    {
+      "name": "ID de post no válido (400)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base}}/api/posts/esto-no-es-un-objectid",
+          "host": ["{{base}}"],
+          "path": ["api", "posts", "esto-no-es-un-objectid"]
+        }
+      }
+    }
+  ]
+}

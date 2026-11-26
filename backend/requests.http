@@ -1,0 +1,88 @@
+### Pruebas de la API con la extensión REST Client (archivo .http)
+### Cambia {{base}} por tu URL de Vercel cuando pruebes el despliegue.
+### Las peticiones POST, PUT y DELETE modifican la base configurada.
+### Ejecútalas con datos de prueba y en orden; el flujo elimina los documentos creados.
+
+@base = http://localhost:4000
+@authorId = 665f1a2b3c4d5e6f70000001
+@postId = {{createPost.response.body._id}}
+@eventId = {{createEvent.response.body._id}}
+
+### 1. Comprobar que la API responde
+GET {{base}}/
+
+### 2. Listar todos los posts
+GET {{base}}/api/posts
+
+### 3. Crear un post de prueba
+# @name createPost
+POST {{base}}/api/posts
+Content-Type: application/json
+
+{
+  "titulo": "Prueba de API REST",
+  "slug": "prueba-api-pec3-{{$guid}}",
+  "contenido": "Post temporal creado para probar el CRUD de la API.",
+  "extracto": "Prueba temporal del CRUD.",
+  "categoria": "anuncio",
+  "etiquetas": ["prueba", "api"],
+  "fechaPublicacion": "2026-11-26T12:00:00.000Z",
+  "publicado": false,
+  "autor": "{{authorId}}"
+}
+
+### 4. Obtener el post creado por id
+GET {{base}}/api/posts/{{postId}}
+
+### 5. Actualizar el post creado
+PUT {{base}}/api/posts/{{postId}}
+Content-Type: application/json
+
+{
+  "extracto": "Post actualizado durante la prueba del CRUD."
+}
+
+### 6. Eliminar el post creado
+DELETE {{base}}/api/posts/{{postId}}
+
+### 7. Listar todos los eventos
+GET {{base}}/api/events
+
+### 8. Crear un evento de prueba
+# @name createEvent
+POST {{base}}/api/events
+Content-Type: application/json
+
+{
+  "nombre": "Evento de prueba API",
+  "slug": "evento-prueba-api-pec3-{{$guid}}",
+  "tipo": "principal",
+  "anio": 2026,
+  "tematica": "Prueba de la API",
+  "descripcion": "Evento temporal para probar el CRUD de la API.",
+  "estado": "proximo",
+  "lugar": {
+    "nombre": "Recinto de prueba",
+    "ciudad": "Granada"
+  }
+}
+
+### 9. Obtener el evento creado por id
+GET {{base}}/api/events/{{eventId}}
+
+### 10. Actualizar el evento creado
+PUT {{base}}/api/events/{{eventId}}
+Content-Type: application/json
+
+{
+  "tematica": "Evento actualizado durante la prueba"
+}
+
+### 11. Eliminar el evento creado
+DELETE {{base}}/api/events/{{eventId}}
+
+### 12. Comprobar respuesta JSON 404 para una ruta desconocida
+GET {{base}}/api/ruta-inexistente
+
+### 13. Comprobar respuesta JSON 400 para un ObjectId mal formado
+GET {{base}}/api/posts/esto-no-es-un-objectid
