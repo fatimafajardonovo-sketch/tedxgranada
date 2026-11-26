@@ -5,7 +5,7 @@ const Event = require("../models/Event");
 async function getEvents(req, res, next) {
   try {
     const events = await Event.find().sort({ createdAt: -1 }); // Busca todos los eventos y muestra primero los recientes
-    res.json(events); // Devuelve todos los eventos
+    res.status(200).json(events); // Devuelve todos los eventos
   } 
   catch (err) {next(err);}} //Si hay algun error lo envio
 
@@ -17,7 +17,7 @@ async function getEvent(req, res, next) {
     if (!event) {
       return res.status(404).json({ mensaje: "Evento no encontrado" }); // Si no existe, devuelve un error 404
     }
-    res.json(event); // Devuelve el evento encontrado.
+    res.status(200).json(event); // Devuelve el evento encontrado.
     } 
   catch (err) {next(err);}} //Si hay algun error lo envio
 
@@ -42,7 +42,7 @@ async function updateEvent(req, res, next) {
     if (!event) {
       return res.status(404).json({ mensaje: "Evento no encontrado" });
     }
-    res.json(event);// Devuelve el evento actualizado.
+    res.status(200).json(event);// Devuelve el evento actualizado.
   }
   catch (err) {next(err);}} //Si hay algun error lo envio
 
@@ -54,7 +54,7 @@ async function deleteEvent(req, res, next) {
     if (!event) {
       return res.status(404).json({ mensaje: "Evento no encontrado" });
     }
-    res.json({ mensaje: "Evento eliminado", id: req.params.id });
+    res.status(200).json({ mensaje: "Evento eliminado", id: req.params.id });
   }
   catch (err) {next(err);}} //Si hay algun error lo envio
 
