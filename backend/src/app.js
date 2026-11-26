@@ -13,6 +13,11 @@ const app = express();
 // Permite recibir y leer datos en formato JSON en las peticiones
 app.use(express.json());
 
+// Ruta raíz sencilla para confirmar que la API está respondiendo.
+app.get("/", (req, res) => {
+  res.json({ mensaje: "API REST de TEDxGranada" });
+});
+
 // Conecta las rutas de los posts con la dirección /api/posts  y api/events
 app.use("/api/posts", postRoutes);
 app.use("/api/events", eventRoutes);
