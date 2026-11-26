@@ -1,17 +1,6 @@
 // Importamos mongoose
 const mongoose = require("mongoose");
 
-
-// Creo un esquema nuevo
-const UsersSchema = new mongoose.Schema(
-  {
-    linkedin: { type: String, trim: true },
-    instagram: { type: String, trim: true },
-    x: { type: String, trim: true }
-  },
-  { _id: false }
-);
-
 // Este esquema sigue los campos definidos para la colección users de la PEC 2.
 const userSchema = new mongoose.Schema(
   {
@@ -50,10 +39,6 @@ const userSchema = new mongoose.Schema(
     organizacion: { type: String, trim: true },
     foto: { type: String, trim: true },
     web: { type: String, trim: true },
-    redesSociales: {
-      type: redesSocialesSchema,
-      default: () => ({})
-    },
     activo: {
       type: Boolean,
       default: true
