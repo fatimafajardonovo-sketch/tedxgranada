@@ -85,17 +85,19 @@ backend/
 
 Las respuestas correctas devuelven los documentos o arrays en JSON. Los errores generales y las rutas inexistentes usan `{ "error": "...", "mensaje": "..." }`; si no existe un post o evento solicitado, la respuesta incluye `{ "mensaje": "..." }`. Un ID con formato inválido devuelve 400; un documento inexistente devuelve 404; un valor único duplicado devuelve 409.
 
+Cada router incluye su propio middleware 404 y gestor de errores; `app.js` conserva ambos como respaldo global para errores anteriores a las rutas y URLs que no pertenecen a los routers.
+
 ### Diagrama del flujo
 
 ```mermaid
 flowchart LR
     Cliente[REST Client o Postman] --> App[Express app]
     App --> Routes[Rutas /api/posts y /api/events]
+    Routes --> RouterErrors[404 y gestor de errores del router]
     Routes --> Controllers[Controladores]
     Controllers --> Models[Modelos Mongoose]
     Models --> Atlas[(MongoDB Atlas)]
-    App --> NotFound[Middleware 404]
-    App --> Errors[Middleware central de errores]
+    App --> GlobalErrors[404 y errores globales de respaldo]
 ```
 
 ## Instalación y ejecución local de la API
