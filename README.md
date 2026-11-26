@@ -46,7 +46,9 @@ La API está en `backend/`. Sus responsabilidades están separadas:
 ```text
 backend/
 ├── src/
-│   ├── config/db.js
+│   ├── config/
+│   │   ├── db.js
+│   │   └── logger.js
 │   ├── models/                 User.js, Post.js, Event.js
 │   ├── controllers/            controladores de posts y eventos
 │   ├── routes/                 rutas de posts y eventos
@@ -138,8 +140,12 @@ Las operaciones POST, PUT y DELETE escriben en la base configurada. Ejecuta las 
 |---|---|---|
 | `MONGODB_URI` | Sí | Cadena de conexión a MongoDB Atlas |
 | `PORT` | No | Puerto local de Express; por defecto `4000` |
+| `LOG_LEVEL` | No | Nivel de logging Winston; por defecto `info` |
+| `DEBUG` | No | Activa mensajes de diagnóstico; usa `tedxgranada:*` en local |
 
 Hay plantillas `.env.example` en la raíz y en `backend/`: la de la raíz se utiliza con el importador de la PEC 2; la de `backend/`, con la API. Configura los archivos `.env` locales correspondientes sin compartirlos.
+
+La API usa Winston para logs estructurados, `debug` para diagnóstico opcional y Helmet para añadir cabeceras de seguridad HTTP.
 
 ## Importar los datos de la PEC 2
 
