@@ -8,7 +8,7 @@ async function getPosts(req, res, next) {
     // Busca todos los posts y muestra primero los más recientes.
     const posts = await Post.find().sort({ createdAt: -1 });
     // Devuelve todos los posts.
-    res.json(posts);
+    res.status(200).json(posts);
   } catch (err) {
     // Si hay algún error, lo envía
     next(err);
@@ -25,7 +25,7 @@ async function getPost(req, res, next) {
       return res.status(404).json({ mensaje: "Post no encontrado" });
     }
     // Si existe, se devuelve el post encontrado en formato JSON
-    res.json(post);
+    res.status(200).json(post);
   } catch (err) {
     next(err);
   }
@@ -60,7 +60,7 @@ async function updatePost(req, res, next) {
     }
 
     // Devuelve el post actualizado.
-    res.json(post);
+    res.status(200).json(post);
   } catch (err) {
     next(err);
   }
@@ -76,7 +76,7 @@ async function deletePost(req, res, next) {
     }
 
     // Si no existe, devuelve un error 404.Confirma que el post se ha eliminado.
-    res.json({ mensaje: "Post eliminado", id: req.params.id });
+    res.status(200).json({ mensaje: "Post eliminado", id: req.params.id });
   } catch (err) {
     next(err);
   }

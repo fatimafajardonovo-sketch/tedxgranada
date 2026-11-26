@@ -1,11 +1,18 @@
 // Este middleware se encarga de gestionar los errores que pueda generar la API
 
+const logger = require("../config/logger");
 
 function errorHandler(err, req, res, next) {
   if (res.headersSent) {   // Comprueba si la respuesta ya se ha enviado
     return next(err); // Si ya se ha enviado, pasa el error a Express
   }
-  console.error(err);
+  logger.error("Error procesando solicitud", {
+    name: err.name,
+    message: err.message,
+    method: req.method,
+    path: req.path,
+    stack: err.stack
+  });
 
   // Comprueba si el ID de MongoDB tiene un formato incorrecto
   if (err.name === "CastError") {

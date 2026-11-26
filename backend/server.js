@@ -3,15 +3,18 @@
 const path = require("node:path"); // Importa la herramienta para trabajar con rutas de archivos.
 require("dotenv").config({ path: path.join(__dirname, ".env") });  // Carga las variables de configuración del archivo .env.
 
+const logger = require("./src/config/logger");
+const debug = require("debug")("tedxgranada:server");
 const app = require("./src/app"); // Importa la aplicación Express con sus rutas y middlewares.
 const connectDB = require("./src/config/db"); // Importa la función que conecta con MongoDB.
 
 // Inicia la conexión con MongoDB utilizando la dirección guardada en las variables de entorno.
+debug("Iniciando conexión de base de datos para el servidor");
 const dbConnection = connectDB(process.env.MONGODB_URI);
 
 // Comprueba si hay algún error al conectar con MongoDB
 dbConnection.catch((err) => {
-  console.error("Error de conexión a MongoDB:", err.message);
+  logger.error("Error de conexión a MongoDB", { message: err.message });
 });
 
 // Comprueba si este archivo se está ejecutando directamente
@@ -22,7 +25,7 @@ if (require.main === module) {
   dbConnection
     .then(() => {
       app.listen(PORT, () => { // Inicia el servidor Express en el puerto indicado
-        console.log(`API escuchando en http://localhost:${PORT}`); // Muestra un mensaje cuando la API está funcionando.
+        logger.info("API escuchando", { url: `http://localhost:${PORT}` });
       });
     })
     .catch(() => {
